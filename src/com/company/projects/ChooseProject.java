@@ -1,7 +1,7 @@
 package com.company.projects;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public interface ChooseProject {
-    void chooseProject() throws FileNotFoundException;
+    void chooseProject() throws IOException;
 }
