@@ -3,15 +3,14 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class Human {
     public String firstName;
     public String lastName;
     public String experience;
     public Double salary;
-    String[] skillset = {"Java", "HTML", "SQL", "CSS", "JavaScript", "WordPress", "Pretashop", "Python", "C++", "Excell", "Vue", "Angular", "Mandarin (wow)"};
-    List<String> employeeSkill = Arrays.asList(skillset);
-    ArrayList<String> employeeSkillsList = new ArrayList<String>(employeeSkill);
+    public String[] skillset = {"Java", "HTML", "SQL", "CSS", "JavaScript", "WordPress", "Pretashop", "Python", "C++", "Excell", "Vue", "Angular", "Mandarin (wow)"};
 
     public Human(String firstName, String lastName, String experience) {
         this.firstName = firstName;
@@ -31,5 +30,17 @@ public class Human {
         this.salary = salary;
     }
 
-
+    public void shuffleList() {
+        List<String> shuffledStringList = new ArrayList<String>(Arrays.asList(skillset));
+        List<String> properShuffledSkillsList = new ArrayList<>(4);
+        int counter = 0;
+        while (counter < 4) {
+            Random rand = new Random();
+            int index = rand.nextInt(shuffledStringList.size());
+            counter++;
+            properShuffledSkillsList.add(shuffledStringList.get(index));
+            shuffledStringList.remove(shuffledStringList.get(index));
+        }
+        System.out.println("Wylosowane umiejętności Twojego pracownika to: " + properShuffledSkillsList);
+    }
 }

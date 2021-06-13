@@ -3,12 +3,16 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        Boss me = new Boss();
-        System.out.println(me);
-        Human employee = new Human("łukasz", "Wawrzyniec", "best");
+        System.out.println("Jesteś szefem firmy IT. Poniżej znajdują się dane o Twojej osobie");
 
-        me.hire(me, employee);
-        employee.setSalary(1600.0);
+        Boss me = new Boss();
+
+        System.out.println(me);
+        System.out.println("Może teraz wylosować projekt. Do Twojej dyspozycji są tylko projekty łatwe oraz średnie, ze względu na brak odpowiedniego doświadczenia.");
         me.chooseProject();
+        System.out.println("Twój projekt został wylosowany");
+        me.hire(me);
+
+
     }
 }
