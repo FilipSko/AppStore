@@ -1,0 +1,6 @@
+Nazwa: Diner Web Page, Technologia: Front-end, Czas realizacji: 14 dni, Klient: Steve Jobs, Wysokość kary: 500.0, Cena: 10000.0, Poziom trudności: łatwy
+Nazwa: eShop Data Base, Technologia: Bazy danych, Czas realizacji: 14 dni, Klient: Annie Hall, Wysokość kary: 500.0, Cena: 15000.0, Poziom trudności: łatwy
+Nazwa: Music Blog, Technologia: Backend, Czas realizacji: 14 dni, Klient: Robert Neil, Wysokość kary: 1000.0, Cena: 13000.0, Poziom trudności: łatwy
+Nazwa: Wardrobe, Technologia: Mobile, Czas realizacji: 14 dni, Klient: Jeniffer Omaho, Wysokość kary: 800.0, Cena: 12000.0, Poziom trudności: łatwy
+Nazwa: Rental cars, Technologia: WordPress, Czas realizacji: 14 dni, Klient: Michael Schmidt, Wysokość kary: 600.0, Cena: 11000.0, Poziom trudności: łatwy
+Nazwa: Sneakers, Technologia: Pretashop, Czas realizacji: 14 dni, Klient: Adam Sandler, Wysokość kary: 300.0, Cena: 8000.0, Poziom trudności: łatwy

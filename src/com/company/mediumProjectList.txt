@@ -1,0 +1,4 @@
+Nazwa: Bosch Web Page, Technologia: Front-end, Backend, Czas realizacji: 28 dni, Klient: Robert Bosch, Wysokość kary: 2500.0, Cena: 35000.0, Poziom trudności: średni
+Nazwa: Asus Service, Technologia: Backend, Baza Danych, Czas realizacji: 28 dni, Klient: Veronica Heist, Wysokość kary: 3000.0, Cena: 30000.0, Poziom trudności: średni
+Nazwa: Workout Tips, Technologia: Mobile, WordPress, Czas realizacji: 31 dni, Klient: Michelle Obama, Wysokość kary: 3500.0, Cena: 40000.0, Poziom trudności: średni
+Nazwa: Election spies gadgets, Technologia: Pretashop, Front-end, Czas realizacji: 31 dni, Klient: Donald Trump, Wysokość kary: 3300.0, Cena: 30000.0, Poziom trudności: średni
